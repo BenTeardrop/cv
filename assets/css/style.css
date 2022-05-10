@@ -5,14 +5,30 @@
     background-color: #676767 ;
 }
 
-/*-----------------------header*/
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-cv {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+/*-----------------------heading*/
 
 header {
     margin: 0 ;
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 0;
 }
 
 .logo {
@@ -30,9 +46,29 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
+    margin-left: 40px;
     color: #fff;
 }
 
 .title {
     font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px; 
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 90px;
+    color:#fff; 
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
