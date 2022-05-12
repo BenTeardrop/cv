@@ -10,6 +10,10 @@
     background-color: #fff;
 }
 
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
+
 .ui-menu-color-home {
     background-color: #e67e22;
 }
@@ -77,7 +81,7 @@ header {
 }
 
 .logo {
-    background: url(../images/rosie.jpeg)no-repeat center;
+    background: url(../images/bensadbaby.jpg)no-repeat center;
     background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
@@ -212,3 +216,18 @@ footer {
     padding: 20px;
 
 }
+
+/* -----------------------Three reasons */
+
+.three-reasons-icon {
+    color:#e67e22;
+    font-size: 26px;
+
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* -----------------------Personal info */
+
